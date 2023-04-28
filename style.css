@@ -3,8 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Lato', sans-serif;
+}
 .header-area{
     border-top: 5px solid #4274D7;
+    min-height: 120px;
 }
 .container{
     width: 1170px;
@@ -15,8 +19,9 @@ ul{
     padding: 0;
     list-style: none;
 }
-.log{
+.logo{
     float: left;
+    padding-top: 20px;
 }
 .main-menu{
     float: right;
@@ -31,7 +36,7 @@ ul{
 .main-menu ul li a{
     color: #666666;
     font-size: 15px;
-    padding: 50px 0;
+    padding: 40px 0;
     text-decoration: none;
 
 }
